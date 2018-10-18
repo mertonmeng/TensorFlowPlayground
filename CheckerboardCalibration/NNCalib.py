@@ -4,7 +4,7 @@ import tensorflow as tf
 from six.moves import cPickle as pickle
 from six.moves import range
 
-datapath = 'Dataset\\CheckboardData_perspective.csv'
+datapath = 'Dataset\\CheckerboardData_perspective.csv'
 raw_data = np.loadtxt(datapath, delimiter = ',')
 
 input_data = np.ones((raw_data.shape[0], 3), dtype=np.float32)

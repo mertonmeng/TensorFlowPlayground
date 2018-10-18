@@ -4,7 +4,7 @@ import tensorflow as tf
 from six.moves import cPickle as pickle
 from six.moves import range
 
-datapath = 'Dataset\\CheckboardData.csv'
+datapath = 'Dataset\\CheckerboardData.csv'
 raw_data = np.loadtxt(datapath, delimiter = ',')
 
 #input_data = np.zeros((raw_data.shape[0], 2))

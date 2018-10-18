@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 
-datapath = 'Dataset\\CheckboardData_perspective.csv'
+datapath = 'Dataset\\CheckboarderData_perspective.csv'
 raw_data = np.loadtxt(datapath, delimiter = ',')
 
 input_data = np.ones((raw_data.shape[0], 3), dtype=np.float32)
